@@ -1,6 +1,6 @@
-.App {
-  /* text-align: center; */
-}
+/* .App {
+  text-align: center;
+} */
 
 .App-logo {
   height: 40vmin;
@@ -36,6 +36,7 @@
   text-align:center;
   margin: 5px;
   padding: 10px;
+  background: linear-gradient(hwb(194 20% 5%), rgba(255, 255, 255, 0.726), rgba(14, 90, 253, 0.897));
 }
 
 @keyframes App-logo-spin {
