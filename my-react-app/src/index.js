@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Welcome from './components/Welcome';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
-// import NotFound from './components/NotFound';
+import NotFound from './components/NotFound';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,7 +18,7 @@ root.render(
         <Route path='/welcome' element={<Welcome />}></Route>
         <Route path='/blog' element={<Blog />}></Route>
         <Route path='/contact' element={ <Contact /> }></Route>
-        {/* <Route path='/*' element={ <NotFound /> }></Route> */}
+        <Route path='/*' element={ <NotFound /> }></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
