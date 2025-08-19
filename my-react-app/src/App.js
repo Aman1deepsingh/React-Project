@@ -24,6 +24,7 @@ import UseReducer from './components/hooks/UseReducer';
 import UseCallback from './components/hooks/UseCallback';
 import UseMemo from './components/hooks/UseMemo';
 import Git from './components/Git';
+import Modules from './components/Modules';
 
 
 function App() {
@@ -86,6 +87,7 @@ function App() {
       <UseCallback />
       <UseMemo />
       <Git />
+      <Modules />
     </div>
   )
 }
